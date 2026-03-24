@@ -4,8 +4,8 @@ import Footer from '../../components/Footer.jsx';
 function Home() {
   return (
     <div className="Home">
-          <Teste />      
           <Footer />
+          <Teste />      
     </div>
 
   );

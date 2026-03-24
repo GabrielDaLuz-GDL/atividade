@@ -1,5 +1,5 @@
-import react, {useState} from 'react'
-import {AgeContext} from './ageContext'
+import react, {useState} from 'react';
+import {AgeContext} from './ageContext';
 
 export default function AgeProvider({children}) {
 

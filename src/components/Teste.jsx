@@ -23,13 +23,17 @@ function Teste() {
 
   return (
     <div className='Teste'>
+
         <Counter>Você clicou {count} vezes</Counter>
+        
         <Button primary={cor} onClick={() => setCount(count + 1)}>
         Contador +1
         </Button>
+
         <Button primary={cor} onClick={() => setCount(count - 1)}>
         Contador -1
         </Button>
+
         <Button onClick={() => setCor(!cor)}>
         Mudar cor
         </Button>
